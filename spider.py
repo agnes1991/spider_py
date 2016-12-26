@@ -24,9 +24,9 @@ def blog(conn):
         name = title.select(".blog-name")
         brief = title.select(".blog-brief")
         # print (link[0].attrs['href'], name[0].text, '=========', brief[0].text, "\n")
-        print (link[0].attrs["href"])
-        print (name[0].text)
-        print (brief[0].text)
+        # print (link[0].attrs["href"])
+        # print (name[0].text)
+        # print (brief[0].text)
         param = (name[0].text,
                  brief[0].text,
                  link[0].attrs["href"])
